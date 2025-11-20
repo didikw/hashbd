@@ -1,3 +1,5 @@
+ms-azure.azdatastore.workers.dev
+ms-azure.herokuapp.com
 kupaoquan.com
 udefined30.domainofhonour40.xyz
 rt-guard.com
