@@ -1,3 +1,12 @@
+camo.hach.chat
+dnot.sh
+inspiring-monstera-5c3688.netlify.app
+microsoft.devq.workers.dev
+openai-proxy.napdev.workers.dev
+pub-fd29cd63fb8c4b7fb0c7d3fa893212b9.r2.dev
+proxy.wingram.org
+kttelecom.duckdns.org
+spiffy-crepe-c667e8.netlify.app
 amoled.multicoloredhdrsupport.xyz
 walnut.almondcollections.com
 cseabrahamlincoln-my.sharepoint.com
