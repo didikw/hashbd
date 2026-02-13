@@ -1,3 +1,4 @@
+pub-059b360d48c9426ea8e51c95405cf194.r2.dev
 www.adum-kana-oes.org
 adum-kana-oes.org
 tempat-nonton-crotss.pages.dev
