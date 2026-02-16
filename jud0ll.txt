@@ -1,3 +1,8 @@
+genshin.hoyoverse.com
+hoyoverse.com
+mihoyo.com
+yuanshen.com
+webstatic-sea.hoyoverse.com
 l3cdn.riotgames.com
 worldwide.l3cdn.riotgames.com
 riotgames.com
