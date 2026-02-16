@@ -1,3 +1,6 @@
+l3cdn.riotgames.com
+worldwide.l3cdn.riotgames.com
+riotgames.com
 www.roblox.com
 roblox.com
 api.roblox.com
