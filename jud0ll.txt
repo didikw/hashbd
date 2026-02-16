@@ -1,3 +1,5 @@
+### Game
+easebar.com
 activision.com
 codm.garena.co.id
 garena.co.id
@@ -14,6 +16,7 @@ riotgames.com
 www.roblox.com
 roblox.com
 api.roblox.com
+#####################
 m1sex.com
 fafa828top.click
 linkcuan.click
