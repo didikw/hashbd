@@ -1,0 +1,33 @@
+title: Tangerang Kota Webshell Upload via Double-Extension PHP Disguised as KTP Document
+id: 8f3a1c72-5b4e-4d91-a3c8-1e7f9b2d4a60
+status: experimental
+description: Detects webshell upload attempts using double-extension .php.jpg files disguised as KTP identity documents against Tangerang Kota applications.
+author: TangerangKota-CSIRT
+date: 2026/09/24
+references:
+  - https://attack.mitre.org/techniques/T1505/003/
+logsource:
+  product: wazuh
+  category: web
+detection:
+  selection_webshell_ext:
+    data.url|re: '(\.php\.jpg|\.php\.png|\.php\.gif|\.php7|\.phtml|\.php%00|\.php\.jpg%00)'
+  selection_upload_path:
+    data.url|contains:
+      - '/showfile/'
+      - '/wp/'
+      - '/w0/'
+  selection_ktp_disguise:
+    data.url|contains:
+      - 'ktp'
+      - 'shell'
+      - 'alfa-rex'
+  condition: selection_webshell_ext and (selection_upload_path or selection_ktp_disguise)
+falsepositives:
+  - Legitimate KTP identity document uploads with mixed extensions (tune against business baseline)
+level: critical
+tags:
+  - attack.persistence
+  - attack.t1505.003
+  - attack.initial_access
+  - attack.t1190

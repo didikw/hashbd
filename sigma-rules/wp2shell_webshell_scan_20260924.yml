@@ -1,0 +1,51 @@
+title: Tangerang Kota WP2Shell REST API Exploitation and Webshell Scanning
+id: 6c9b2f84-1d7a-4e35-8b60-5a2c8f1e9d73
+status: experimental
+description: Detects WordPress REST API batch/v1 abuse (WP2Shell), webshell discovery scanning, and sensitive configuration file access attempts across Tangerang Kota web applications.
+author: TangerangKota-CSIRT
+date: 2026/09/24
+references:
+  - https://attack.mitre.org/techniques/T1190/
+  - https://attack.mitre.org/techniques/T1083/
+logsource:
+  product: wazuh
+  category: web
+detection:
+  selection_wp2shell:
+    data.url|contains:
+      - 'rest_route=/batch/v1'
+  selection_webshell_scan:
+    data.url|contains:
+      - 'wp-login.php'
+      - 'eval-stdin.php'
+      - 'admin.php'
+      - 'administrator/index.php'
+      - 'wp-config.php'
+      - 'logon.aspx'
+      - 'Login.aspx'
+  selection_sensitive_config:
+    data.url|contains:
+      - '/.env'
+      - '/.git/config'
+      - '/.git-credentials'
+      - '/.aws/credentials'
+      - '/.ssh/id_rsa'
+      - '/.ssh/id_dsa'
+      - 'sftp-config.json'
+      - 'application_default_credentials.json'
+  selection_vite_fs:
+    data.url|contains:
+      - '/@fs/'
+  condition: selection_wp2shell or selection_webshell_scan or selection_sensitive_config or selection_vite_fs
+falsepositives:
+  - Security scanners and authorised penetration tests (whitelist by source IP)
+level: high
+tags:
+  - attack.initial_access
+  - attack.t1190
+  - attack.discovery
+  - attack.t1083
+  - attack.credential_access
+  - attack.t1552.001
+  - attack.persistence
+  - attack.t1505.003
