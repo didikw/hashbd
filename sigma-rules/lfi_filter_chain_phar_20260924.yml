@@ -1,0 +1,44 @@
+title: TangerangKota LFI PHP Filter Chain and Phar Deserialization
+id: 2d7e4f91-8a3b-4c56-b1d9-3f5e6a8c2b47
+status: experimental
+description: Detects Local File Inclusion via php://filter base64 chains, phar:// deserialization wrappers, and PHP-CGI argument injection against Tangerang Kota web applications.
+author: TangerangKota-CSIRT
+date: 2026/09/24
+references:
+  - https://attack.mitre.org/techniques/T1190/
+  - https://attack.mitre.org/techniques/T1083/
+logsource:
+  product: wazuh
+  category: web
+detection:
+  selection_filter_chain:
+    data.url|contains:
+      - 'php://filter'
+      - 'convert.base64-encode'
+      - 'php://input'
+  selection_phar:
+    data.url|contains:
+      - 'phar://'
+  selection_cgi:
+    data.url|contains:
+      - 'allow_url_include'
+      - 'auto_prepend_file'
+      - 'php-cgi'
+  selection_targets:
+    data.url|contains:
+      - '.env'
+      - 'laravel.log'
+      - 'wp-config.php'
+      - '/etc/passwd'
+      - 'database'
+  condition: (selection_filter_chain or selection_phar or selection_cgi) and selection_targets
+falsepositives:
+  - Application features that legitimately use stream wrappers (rare; tune by parameter)
+level: critical
+tags:
+  - attack.initial_access
+  - attack.t1190
+  - attack.discovery
+  - attack.t1083
+  - attack.credential_access
+  - attack.t1552.001
