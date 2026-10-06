@@ -1,0 +1,2113 @@
+{
+    "id": "bundle--c43528d1-1682-4588-ab76-0e62093db8a9",
+    "objects": [
+        {
+            "contact_information": "csirt@tangerangkota.go.id",
+            "created": "2026-10-06T08:08:42.832Z",
+            "id": "identity--2b63cbd5-cbaa-5b07-8383-f9e3731ca479",
+            "identity_class": "organization",
+            "modified": "2026-10-06T08:08:42.832Z",
+            "name": "TangerangKota-CSIRT",
+            "sectors": [
+                "government"
+            ],
+            "spec_version": "2.1",
+            "type": "identity"
+        },
+        {
+            "created": "2017-01-20T00:00:00.000Z",
+            "definition": {
+                "tlp": "amber"
+            },
+            "definition_type": "tlp",
+            "id": "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82",
+            "name": "TLP:AMBER",
+            "spec_version": "2.1",
+            "type": "marking-definition"
+        },
+        {
+            "created": "2022-10-01T00:00:00.000Z",
+            "extensions": {
+                "extension-definition--60a3c5c5-0d10-413e-aab3-9e08dde9e88d": {
+                    "extension_type": "property-extension",
+                    "tlp_2_0": "amber+strict"
+                }
+            },
+            "id": "marking-definition--939a9414-2ddd-4d32-a0cd-375ea402b003",
+            "name": "TLP:AMBER+STRICT",
+            "spec_version": "2.1",
+            "type": "marking-definition"
+        },
+        {
+            "created": "2022-10-01T00:00:00.000Z",
+            "extensions": {
+                "extension-definition--60a3c5c5-0d10-413e-aab3-9e08dde9e88d": {
+                    "extension_type": "property-extension",
+                    "tlp_2_0": "amber"
+                }
+            },
+            "id": "marking-definition--55d920b0-5e8b-4f79-9ee9-91f868d9b421",
+            "name": "TLP:AMBER",
+            "spec_version": "2.1",
+            "type": "marking-definition"
+        },
+        {
+            "created": "2022-10-01T00:00:00.000Z",
+            "extensions": {
+                "extension-definition--60a3c5c5-0d10-413e-aab3-9e08dde9e88d": {
+                    "extension_type": "property-extension",
+                    "tlp_2_0": "clear"
+                }
+            },
+            "id": "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487",
+            "name": "TLP:CLEAR",
+            "spec_version": "2.1",
+            "type": "marking-definition"
+        },
+        {
+            "created": "2022-10-01T00:00:00.000Z",
+            "extensions": {
+                "extension-definition--60a3c5c5-0d10-413e-aab3-9e08dde9e88d": {
+                    "extension_type": "property-extension",
+                    "tlp_2_0": "green"
+                }
+            },
+            "id": "marking-definition--bab4a63c-aed9-4cf5-a766-dfca5abac2bb",
+            "name": "TLP:GREEN",
+            "spec_version": "2.1",
+            "type": "marking-definition"
+        },
+        {
+            "created": "2022-10-01T00:00:00.000Z",
+            "extensions": {
+                "extension-definition--60a3c5c5-0d10-413e-aab3-9e08dde9e88d": {
+                    "extension_type": "property-extension",
+                    "tlp_2_0": "red"
+                }
+            },
+            "id": "marking-definition--e828b379-4e03-4974-9ac4-e53a884c97c1",
+            "name": "TLP:RED",
+            "spec_version": "2.1",
+            "type": "marking-definition"
+        },
+        {
+            "created": "2026-10-06T08:08:42.832Z",
+            "created_by_ref": "identity--2b63cbd5-cbaa-5b07-8383-f9e3731ca479",
+            "id": "report--7f2a4391-edeb-5d0e-9c9d-b64b799d01b3",
+            "modified": "2026-10-06T08:08:42.832Z",
+            "name": "TangerangKota-CSIRT SQLi Campaign 2026-10-06 - Full IOC Set",
+            "object_marking_refs": [
+                "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+            ],
+            "object_refs": [
+                "indicator--165dbac5-a15f-5c5c-b325-e28e3b8b25cc",
+                "indicator--20ca5e84-8625-5ed2-94c4-70f68b1bdc17",
+                "indicator--e0ced714-9931-58c5-b6af-043d78f180a0",
+                "indicator--a009f7e0-8d33-52f9-a51f-7556b99de4ae",
+                "indicator--89e82573-adda-5828-a95a-8d43c7b4a5de",
+                "indicator--149a0344-f663-50ea-9091-65c268269ac5",
+                "indicator--ed98a696-4bfc-5224-93a0-a1d9a0a952a5",
+                "indicator--a8f3d2eb-e4d9-59d6-8e85-a20fb68b2b61",
+                "indicator--cf23b1dc-c707-5a90-8a35-2e5a4e827799",
+                "indicator--7eb5764c-4cbf-5211-8f7c-9201a9b88a8c",
+                "indicator--07c3dba6-a84c-5392-9fdc-65f09101bdef",
+                "indicator--8cd91d9b-740c-5090-a46c-37d46eb936c5",
+                "indicator--5ca94e4c-f0a2-54bb-8e53-faa26b5d747e",
+                "indicator--7ca21294-b3af-5507-8144-cbbe3cba83e9",
+                "indicator--b9c6e7a3-19a9-5508-b1b2-daefb4795a0e",
+                "indicator--271cf5e7-9e28-5eee-92f3-cd82c27cc751",
+                "indicator--100a7db1-6ee9-51b9-84bd-d30658b62816",
+                "indicator--9e374ad0-6dc1-5bf9-b443-401f38f8d34f",
+                "indicator--f8ad42d7-e361-5d92-9809-3bd14dab8277",
+                "indicator--8f194fc8-b9fa-558c-8ea0-ab01662b0d4c",
+                "indicator--3324787c-950f-5703-8d00-f20cfa1d621d",
+                "indicator--d7d4f933-6c0a-57c2-87e3-008035ccbd3f",
+                "indicator--bc2c43f6-f2ec-59f5-987d-b1bbe368ad99",
+                "indicator--7284584c-13cd-5f88-88dd-e97cfe79d23c",
+                "indicator--d7f16b70-aa8f-5448-8274-cce7b44ef859",
+                "indicator--afba0f85-3c84-5d03-b36e-3c7c4ccca0db",
+                "indicator--a797f9cf-253c-5e7c-b3a3-6627e013c175",
+                "indicator--57fb2012-40a1-5bea-89c6-5d9ffe217d9a",
+                "indicator--8eeb9a1d-a779-5dc3-b908-c3bd326a90fc",
+                "indicator--abb44d71-c2d1-56de-bf1d-d56413a8ceb5",
+                "indicator--1676b764-67f2-5822-ad95-5ba13b2ee98c",
+                "indicator--211c76fd-0a59-52f4-a5ef-69116d741984",
+                "indicator--defc3684-1f8b-5129-ae1a-8beb297489bc",
+                "indicator--b2a7b7fd-bc09-5d3e-a178-619a5f4cc5d3",
+                "indicator--5b039401-b7c2-5818-94cf-ba2bc1370575",
+                "indicator--ab9b36f3-3d47-5aab-a859-58a3689f540b",
+                "indicator--5d901e1a-572c-508e-9a6a-74f4ff70d396",
+                "indicator--04bfd7d9-a604-5f8d-9901-5ddadda4d072",
+                "indicator--679b6db2-e6f8-50c8-ae5e-6e57c8d38496",
+                "indicator--299b90d2-ee6c-5a01-b63f-77b546c66698",
+                "relationship--659698f4-a083-5ccb-be57-8d7f2ae42f9e",
+                "relationship--253dfe58-be2d-5298-bec7-40ab57b83e09",
+                "relationship--e283946a-80f0-5356-9e40-c5e3cc8fc2bc",
+                "relationship--8e89bff7-d75a-53e3-9ef2-3717ec531324",
+                "relationship--4f0a07a8-7b91-5275-9534-c900297c7a55",
+                "relationship--99fa81a2-2197-5f1c-9928-0132281c7412",
+                "relationship--1922a337-9a9b-5a23-b523-3aad36d218e1",
+                "relationship--b3002cb3-9fe9-520b-95c0-18ffd8ac680e",
+                "relationship--6a8f2511-7f3a-5186-94c4-39bc8c21a624",
+                "relationship--c181b32f-e10b-5966-b573-6584a0b72135",
+                "relationship--307ac287-1e1c-5989-9469-2b2e9869e0b6",
+                "relationship--e3d94e37-eccc-5010-9e9e-08fd49af57e5",
+                "relationship--c8995450-da16-52f0-8904-7d0f7a965412",
+                "relationship--06d1b66f-6294-585f-bc73-04086fd84cb4",
+                "relationship--dce81fae-3f9c-5849-8858-43b022bfbe6e",
+                "relationship--714c1da8-81f1-5e39-8b06-b95d29465c47",
+                "relationship--a62f2960-d720-5c11-bf56-6432ac1e98d6",
+                "relationship--49d83981-eb2a-5c8b-807f-2790540e4996",
+                "relationship--81aa430b-3aee-59ce-9f1b-3fe9011b20ec",
+                "relationship--d79bcd8f-2d05-5e4c-8e0e-5e56cfbabcf6",
+                "relationship--a158f68b-d758-5861-bbae-8592be856f34",
+                "relationship--bc94f888-65cd-53a7-9a88-98af416a41dd",
+                "relationship--f9a9edae-b196-5160-9a04-fcbdf4f62b33",
+                "relationship--657ae75d-cc38-5cac-9e51-580eab5cd830",
+                "relationship--3b4aa451-2476-56a1-a466-ed15255267f4",
+                "relationship--f746ed28-d3aa-5060-82a8-95c2f75d7e29",
+                "relationship--82173523-29fa-5fc9-be21-20856291a11c",
+                "relationship--3f7e97a5-b035-50c5-b0b0-ec26ddb5dbf5",
+                "relationship--43d8eb84-a85c-5ab8-8145-155a89d6451d",
+                "relationship--b051bd0c-7561-52ee-a65f-b68052a4b364",
+                "relationship--7d075ebd-abee-5689-9c3d-e9e4e1ed155a",
+                "relationship--7022cf5b-6b80-5512-b49c-ca8975b287b1",
+                "relationship--94c39361-4e53-59d4-8969-6633fa0679f5",
+                "relationship--611fe4a7-a655-51b2-874d-9a0c747ab8d2",
+                "relationship--9386b86e-3ef0-5b53-9314-790c7866a3f1",
+                "relationship--869f7f37-1d26-50de-98be-ff05017c9ed6",
+                "relationship--f3e69bb5-f871-5683-812d-0f03e6d030ae",
+                "relationship--f833a9ca-2a7b-5ca7-959a-e378cdd8f98b",
+                "relationship--99a49750-904b-5ab6-aa87-f550c8636943",
+                "relationship--b1f98d70-6b1a-5a22-835e-139418cf82a6"
+            ],
+            "published": "2026-10-06T08:08:42.832Z",
+            "report_types": [
+                "threat-report"
+            ],
+            "spec_version": "2.1",
+            "type": "report"
+        },
+        {
+            "created": "2026-10-06T08:08:42.832Z",
+            "created_by_ref": "identity--2b63cbd5-cbaa-5b07-8383-f9e3731ca479",
+            "external_references": [
+                {
+                    "description": "Indicator reported as malicious by crowdsec",
+                    "source_name": "crowdsec"
+                },
+                {
+                    "description": "Indicator reported as malicious by abuseipdb",
+                    "source_name": "abuseipdb"
+                },
+                {
+                    "description": "Indicator reported as malicious by otx",
+                    "source_name": "otx"
+                }
+            ],
+            "id": "indicator--165dbac5-a15f-5c5c-b325-e28e3b8b25cc",
+            "labels": [
+                "malicious-activity"
+            ],
+            "modified": "2026-10-06T08:08:42.832Z",
+            "name": "182.253.123.192",
+            "object_marking_refs": [
+                "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+            ],
+            "pattern": "[ipv4-addr:value = '182.253.123.192']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "spec_version": "2.1",
+            "type": "indicator",
+            "valid_from": "2026-10-06T08:08:42.832Z"
+        },
+        {
+            "created": "2026-10-06T08:08:42.832Z",
+            "created_by_ref": "identity--2b63cbd5-cbaa-5b07-8383-f9e3731ca479",
+            "external_references": [
+                {
+                    "description": "Indicator reported as malicious by crowdsec",
+                    "source_name": "crowdsec"
+                },
+                {
+                    "description": "Indicator reported as malicious by abuseipdb",
+                    "source_name": "abuseipdb"
+                },
+                {
+                    "description": "Indicator reported as malicious by otx",
+                    "source_name": "otx"
+                }
+            ],
+            "id": "indicator--20ca5e84-8625-5ed2-94c4-70f68b1bdc17",
+            "labels": [
+                "malicious-activity"
+            ],
+            "modified": "2026-10-06T08:08:42.832Z",
+            "name": "103.130.19.192",
+            "object_marking_refs": [
+                "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+            ],
+            "pattern": "[ipv4-addr:value = '103.130.19.192']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "spec_version": "2.1",
+            "type": "indicator",
+            "valid_from": "2026-10-06T08:08:42.832Z"
+        },
+        {
+            "created": "2026-10-06T08:08:42.832Z",
+            "created_by_ref": "identity--2b63cbd5-cbaa-5b07-8383-f9e3731ca479",
+            "external_references": [
+                {
+                    "description": "Indicator reported as malicious by crowdsec",
+                    "source_name": "crowdsec"
+                },
+                {
+                    "description": "Indicator reported as malicious by abuseipdb",
+                    "source_name": "abuseipdb"
+                },
+                {
+                    "description": "Indicator reported as malicious by otx",
+                    "source_name": "otx"
+                }
+            ],
+            "id": "indicator--e0ced714-9931-58c5-b6af-043d78f180a0",
+            "labels": [
+                "malicious-activity"
+            ],
+            "modified": "2026-10-06T08:08:42.832Z",
+            "name": "110.138.91.178",
+            "object_marking_refs": [
+                "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+            ],
+            "pattern": "[ipv4-addr:value = '110.138.91.178']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "spec_version": "2.1",
+            "type": "indicator",
+            "valid_from": "2026-10-06T08:08:42.832Z"
+        },
+        {
+            "created": "2026-10-06T08:08:42.832Z",
+            "created_by_ref": "identity--2b63cbd5-cbaa-5b07-8383-f9e3731ca479",
+            "external_references": [
+                {
+                    "description": "Indicator reported as malicious by crowdsec",
+                    "source_name": "crowdsec"
+                },
+                {
+                    "description": "Indicator reported as malicious by abuseipdb",
+                    "source_name": "abuseipdb"
+                },
+                {
+                    "description": "Indicator reported as malicious by otx",
+                    "source_name": "otx"
+                }
+            ],
+            "id": "indicator--a009f7e0-8d33-52f9-a51f-7556b99de4ae",
+            "labels": [
+                "malicious-activity"
+            ],
+            "modified": "2026-10-06T08:08:42.832Z",
+            "name": "110.139.114.123",
+            "object_marking_refs": [
+                "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+            ],
+            "pattern": "[ipv4-addr:value = '110.139.114.123']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "spec_version": "2.1",
+            "type": "indicator",
+            "valid_from": "2026-10-06T08:08:42.832Z"
+        },
+        {
+            "created": "2026-10-06T08:08:42.832Z",
+            "created_by_ref": "identity--2b63cbd5-cbaa-5b07-8383-f9e3731ca479",
+            "external_references": [
+                {
+                    "description": "Indicator reported as malicious by crowdsec",
+                    "source_name": "crowdsec"
+                },
+                {
+                    "description": "Indicator reported as malicious by abuseipdb",
+                    "source_name": "abuseipdb"
+                },
+                {
+                    "description": "Indicator reported as malicious by otx",
+                    "source_name": "otx"
+                }
+            ],
+            "id": "indicator--89e82573-adda-5828-a95a-8d43c7b4a5de",
+            "labels": [
+                "malicious-activity"
+            ],
+            "modified": "2026-10-06T08:08:42.832Z",
+            "name": "103.76.108.141",
+            "object_marking_refs": [
+                "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+            ],
+            "pattern": "[ipv4-addr:value = '103.76.108.141']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "spec_version": "2.1",
+            "type": "indicator",
+            "valid_from": "2026-10-06T08:08:42.832Z"
+        },
+        {
+            "created": "2026-10-06T08:08:42.832Z",
+            "created_by_ref": "identity--2b63cbd5-cbaa-5b07-8383-f9e3731ca479",
+            "external_references": [
+                {
+                    "description": "Indicator reported as malicious by crowdsec",
+                    "source_name": "crowdsec"
+                },
+                {
+                    "description": "Indicator reported as malicious by abuseipdb",
+                    "source_name": "abuseipdb"
+                },
+                {
+                    "description": "Indicator reported as malicious by otx",
+                    "source_name": "otx"
+                }
+            ],
+            "id": "indicator--149a0344-f663-50ea-9091-65c268269ac5",
+            "labels": [
+                "malicious-activity"
+            ],
+            "modified": "2026-10-06T08:08:42.832Z",
+            "name": "114.12.3.151",
+            "object_marking_refs": [
+                "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+            ],
+            "pattern": "[ipv4-addr:value = '114.12.3.151']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "spec_version": "2.1",
+            "type": "indicator",
+            "valid_from": "2026-10-06T08:08:42.832Z"
+        },
+        {
+            "created": "2026-10-06T08:08:42.832Z",
+            "created_by_ref": "identity--2b63cbd5-cbaa-5b07-8383-f9e3731ca479",
+            "external_references": [
+                {
+                    "description": "Indicator reported as malicious by crowdsec",
+                    "source_name": "crowdsec"
+                },
+                {
+                    "description": "Indicator reported as malicious by abuseipdb",
+                    "source_name": "abuseipdb"
+                },
+                {
+                    "description": "Indicator reported as malicious by otx",
+                    "source_name": "otx"
+                }
+            ],
+            "id": "indicator--ed98a696-4bfc-5224-93a0-a1d9a0a952a5",
+            "labels": [
+                "malicious-activity"
+            ],
+            "modified": "2026-10-06T08:08:42.832Z",
+            "name": "160.22.129.20",
+            "object_marking_refs": [
+                "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+            ],
+            "pattern": "[ipv4-addr:value = '160.22.129.20']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "spec_version": "2.1",
+            "type": "indicator",
+            "valid_from": "2026-10-06T08:08:42.832Z"
+        },
+        {
+            "created": "2026-10-06T08:08:42.832Z",
+            "created_by_ref": "identity--2b63cbd5-cbaa-5b07-8383-f9e3731ca479",
+            "external_references": [
+                {
+                    "description": "Indicator reported as malicious by crowdsec",
+                    "source_name": "crowdsec"
+                },
+                {
+                    "description": "Indicator reported as malicious by abuseipdb",
+                    "source_name": "abuseipdb"
+                },
+                {
+                    "description": "Indicator reported as malicious by otx",
+                    "source_name": "otx"
+                }
+            ],
+            "id": "indicator--a8f3d2eb-e4d9-59d6-8e85-a20fb68b2b61",
+            "labels": [
+                "malicious-activity"
+            ],
+            "modified": "2026-10-06T08:08:42.832Z",
+            "name": "182.253.183.4",
+            "object_marking_refs": [
+                "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+            ],
+            "pattern": "[ipv4-addr:value = '182.253.183.4']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "spec_version": "2.1",
+            "type": "indicator",
+            "valid_from": "2026-10-06T08:08:42.832Z"
+        },
+        {
+            "created": "2026-10-06T08:08:42.832Z",
+            "created_by_ref": "identity--2b63cbd5-cbaa-5b07-8383-f9e3731ca479",
+            "external_references": [
+                {
+                    "description": "Indicator reported as malicious by crowdsec",
+                    "source_name": "crowdsec"
+                },
+                {
+                    "description": "Indicator reported as malicious by abuseipdb",
+                    "source_name": "abuseipdb"
+                },
+                {
+                    "description": "Indicator reported as malicious by otx",
+                    "source_name": "otx"
+                }
+            ],
+            "id": "indicator--cf23b1dc-c707-5a90-8a35-2e5a4e827799",
+            "labels": [
+                "malicious-activity"
+            ],
+            "modified": "2026-10-06T08:08:42.832Z",
+            "name": "103.120.173.80",
+            "object_marking_refs": [
+                "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+            ],
+            "pattern": "[ipv4-addr:value = '103.120.173.80']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "spec_version": "2.1",
+            "type": "indicator",
+            "valid_from": "2026-10-06T08:08:42.832Z"
+        },
+        {
+            "created": "2026-10-06T08:08:42.832Z",
+            "created_by_ref": "identity--2b63cbd5-cbaa-5b07-8383-f9e3731ca479",
+            "external_references": [
+                {
+                    "description": "Indicator reported as malicious by crowdsec",
+                    "source_name": "crowdsec"
+                },
+                {
+                    "description": "Indicator reported as malicious by abuseipdb",
+                    "source_name": "abuseipdb"
+                },
+                {
+                    "description": "Indicator reported as malicious by otx",
+                    "source_name": "otx"
+                }
+            ],
+            "id": "indicator--7eb5764c-4cbf-5211-8f7c-9201a9b88a8c",
+            "labels": [
+                "malicious-activity"
+            ],
+            "modified": "2026-10-06T08:08:42.832Z",
+            "name": "103.139.10.125",
+            "object_marking_refs": [
+                "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+            ],
+            "pattern": "[ipv4-addr:value = '103.139.10.125']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "spec_version": "2.1",
+            "type": "indicator",
+            "valid_from": "2026-10-06T08:08:42.832Z"
+        },
+        {
+            "created": "2026-10-06T08:08:42.832Z",
+            "created_by_ref": "identity--2b63cbd5-cbaa-5b07-8383-f9e3731ca479",
+            "external_references": [
+                {
+                    "description": "Indicator reported as malicious by crowdsec",
+                    "source_name": "crowdsec"
+                },
+                {
+                    "description": "Indicator reported as malicious by abuseipdb",
+                    "source_name": "abuseipdb"
+                },
+                {
+                    "description": "Indicator reported as malicious by otx",
+                    "source_name": "otx"
+                }
+            ],
+            "id": "indicator--07c3dba6-a84c-5392-9fdc-65f09101bdef",
+            "labels": [
+                "malicious-activity"
+            ],
+            "modified": "2026-10-06T08:08:42.832Z",
+            "name": "114.141.50.10",
+            "object_marking_refs": [
+                "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+            ],
+            "pattern": "[ipv4-addr:value = '114.141.50.10']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "spec_version": "2.1",
+            "type": "indicator",
+            "valid_from": "2026-10-06T08:08:42.832Z"
+        },
+        {
+            "created": "2026-10-06T08:08:42.832Z",
+            "created_by_ref": "identity--2b63cbd5-cbaa-5b07-8383-f9e3731ca479",
+            "external_references": [
+                {
+                    "description": "Indicator reported as malicious by crowdsec",
+                    "source_name": "crowdsec"
+                },
+                {
+                    "description": "Indicator reported as malicious by abuseipdb",
+                    "source_name": "abuseipdb"
+                },
+                {
+                    "description": "Indicator reported as malicious by otx",
+                    "source_name": "otx"
+                }
+            ],
+            "id": "indicator--8cd91d9b-740c-5090-a46c-37d46eb936c5",
+            "labels": [
+                "malicious-activity"
+            ],
+            "modified": "2026-10-06T08:08:42.832Z",
+            "name": "151.244.36.14",
+            "object_marking_refs": [
+                "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+            ],
+            "pattern": "[ipv4-addr:value = '151.244.36.14']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "spec_version": "2.1",
+            "type": "indicator",
+            "valid_from": "2026-10-06T08:08:42.832Z"
+        },
+        {
+            "created": "2026-10-06T08:08:42.832Z",
+            "created_by_ref": "identity--2b63cbd5-cbaa-5b07-8383-f9e3731ca479",
+            "external_references": [
+                {
+                    "description": "Indicator reported as malicious by crowdsec",
+                    "source_name": "crowdsec"
+                },
+                {
+                    "description": "Indicator reported as malicious by abuseipdb",
+                    "source_name": "abuseipdb"
+                },
+                {
+                    "description": "Indicator reported as malicious by otx",
+                    "source_name": "otx"
+                }
+            ],
+            "id": "indicator--5ca94e4c-f0a2-54bb-8e53-faa26b5d747e",
+            "labels": [
+                "malicious-activity"
+            ],
+            "modified": "2026-10-06T08:08:42.832Z",
+            "name": "46.35.206.109",
+            "object_marking_refs": [
+                "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+            ],
+            "pattern": "[ipv4-addr:value = '46.35.206.109']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "spec_version": "2.1",
+            "type": "indicator",
+            "valid_from": "2026-10-06T08:08:42.832Z"
+        },
+        {
+            "created": "2026-10-06T08:08:42.832Z",
+            "created_by_ref": "identity--2b63cbd5-cbaa-5b07-8383-f9e3731ca479",
+            "external_references": [
+                {
+                    "description": "Indicator reported as malicious by crowdsec",
+                    "source_name": "crowdsec"
+                },
+                {
+                    "description": "Indicator reported as malicious by abuseipdb",
+                    "source_name": "abuseipdb"
+                },
+                {
+                    "description": "Indicator reported as malicious by otx",
+                    "source_name": "otx"
+                }
+            ],
+            "id": "indicator--7ca21294-b3af-5507-8144-cbbe3cba83e9",
+            "labels": [
+                "malicious-activity"
+            ],
+            "modified": "2026-10-06T08:08:42.832Z",
+            "name": "43.241.131.70",
+            "object_marking_refs": [
+                "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+            ],
+            "pattern": "[ipv4-addr:value = '43.241.131.70']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "spec_version": "2.1",
+            "type": "indicator",
+            "valid_from": "2026-10-06T08:08:42.832Z"
+        },
+        {
+            "created": "2026-10-06T08:08:42.832Z",
+            "created_by_ref": "identity--2b63cbd5-cbaa-5b07-8383-f9e3731ca479",
+            "external_references": [
+                {
+                    "description": "Indicator reported as malicious by crowdsec",
+                    "source_name": "crowdsec"
+                },
+                {
+                    "description": "Indicator reported as malicious by abuseipdb",
+                    "source_name": "abuseipdb"
+                },
+                {
+                    "description": "Indicator reported as malicious by otx",
+                    "source_name": "otx"
+                }
+            ],
+            "id": "indicator--b9c6e7a3-19a9-5508-b1b2-daefb4795a0e",
+            "labels": [
+                "malicious-activity"
+            ],
+            "modified": "2026-10-06T08:08:42.832Z",
+            "name": "80.179.186.190",
+            "object_marking_refs": [
+                "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+            ],
+            "pattern": "[ipv4-addr:value = '80.179.186.190']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "spec_version": "2.1",
+            "type": "indicator",
+            "valid_from": "2026-10-06T08:08:42.832Z"
+        },
+        {
+            "created": "2026-10-06T08:08:42.832Z",
+            "created_by_ref": "identity--2b63cbd5-cbaa-5b07-8383-f9e3731ca479",
+            "external_references": [
+                {
+                    "description": "Indicator reported as malicious by crowdsec",
+                    "source_name": "crowdsec"
+                },
+                {
+                    "description": "Indicator reported as malicious by abuseipdb",
+                    "source_name": "abuseipdb"
+                },
+                {
+                    "description": "Indicator reported as malicious by otx",
+                    "source_name": "otx"
+                }
+            ],
+            "id": "indicator--271cf5e7-9e28-5eee-92f3-cd82c27cc751",
+            "labels": [
+                "malicious-activity"
+            ],
+            "modified": "2026-10-06T08:08:42.832Z",
+            "name": "63.249.161.9",
+            "object_marking_refs": [
+                "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+            ],
+            "pattern": "[ipv4-addr:value = '63.249.161.9']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "spec_version": "2.1",
+            "type": "indicator",
+            "valid_from": "2026-10-06T08:08:42.832Z"
+        },
+        {
+            "created": "2026-10-06T08:08:42.832Z",
+            "created_by_ref": "identity--2b63cbd5-cbaa-5b07-8383-f9e3731ca479",
+            "external_references": [
+                {
+                    "description": "Indicator reported as malicious by crowdsec",
+                    "source_name": "crowdsec"
+                },
+                {
+                    "description": "Indicator reported as malicious by abuseipdb",
+                    "source_name": "abuseipdb"
+                },
+                {
+                    "description": "Indicator reported as malicious by otx",
+                    "source_name": "otx"
+                }
+            ],
+            "id": "indicator--100a7db1-6ee9-51b9-84bd-d30658b62816",
+            "labels": [
+                "malicious-activity"
+            ],
+            "modified": "2026-10-06T08:08:42.832Z",
+            "name": "25.235.33.191",
+            "object_marking_refs": [
+                "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+            ],
+            "pattern": "[ipv4-addr:value = '25.235.33.191']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "spec_version": "2.1",
+            "type": "indicator",
+            "valid_from": "2026-10-06T08:08:42.832Z"
+        },
+        {
+            "created": "2026-10-06T08:08:42.832Z",
+            "created_by_ref": "identity--2b63cbd5-cbaa-5b07-8383-f9e3731ca479",
+            "external_references": [
+                {
+                    "description": "Indicator reported as malicious by crowdsec",
+                    "source_name": "crowdsec"
+                },
+                {
+                    "description": "Indicator reported as malicious by abuseipdb",
+                    "source_name": "abuseipdb"
+                },
+                {
+                    "description": "Indicator reported as malicious by otx",
+                    "source_name": "otx"
+                }
+            ],
+            "id": "indicator--9e374ad0-6dc1-5bf9-b443-401f38f8d34f",
+            "labels": [
+                "malicious-activity"
+            ],
+            "modified": "2026-10-06T08:08:42.832Z",
+            "name": "55.248.180.202",
+            "object_marking_refs": [
+                "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+            ],
+            "pattern": "[ipv4-addr:value = '55.248.180.202']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "spec_version": "2.1",
+            "type": "indicator",
+            "valid_from": "2026-10-06T08:08:42.832Z"
+        },
+        {
+            "created": "2026-10-06T08:08:42.832Z",
+            "created_by_ref": "identity--2b63cbd5-cbaa-5b07-8383-f9e3731ca479",
+            "external_references": [
+                {
+                    "description": "Indicator reported as malicious by crowdsec",
+                    "source_name": "crowdsec"
+                },
+                {
+                    "description": "Indicator reported as malicious by abuseipdb",
+                    "source_name": "abuseipdb"
+                },
+                {
+                    "description": "Indicator reported as malicious by otx",
+                    "source_name": "otx"
+                }
+            ],
+            "id": "indicator--f8ad42d7-e361-5d92-9809-3bd14dab8277",
+            "labels": [
+                "malicious-activity"
+            ],
+            "modified": "2026-10-06T08:08:42.832Z",
+            "name": "81.40.182.55",
+            "object_marking_refs": [
+                "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+            ],
+            "pattern": "[ipv4-addr:value = '81.40.182.55']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "spec_version": "2.1",
+            "type": "indicator",
+            "valid_from": "2026-10-06T08:08:42.832Z"
+        },
+        {
+            "created": "2026-10-06T08:08:42.832Z",
+            "created_by_ref": "identity--2b63cbd5-cbaa-5b07-8383-f9e3731ca479",
+            "external_references": [
+                {
+                    "description": "Indicator reported as malicious by crowdsec",
+                    "source_name": "crowdsec"
+                },
+                {
+                    "description": "Indicator reported as malicious by abuseipdb",
+                    "source_name": "abuseipdb"
+                },
+                {
+                    "description": "Indicator reported as malicious by otx",
+                    "source_name": "otx"
+                }
+            ],
+            "id": "indicator--8f194fc8-b9fa-558c-8ea0-ab01662b0d4c",
+            "labels": [
+                "malicious-activity"
+            ],
+            "modified": "2026-10-06T08:08:42.832Z",
+            "name": "65.92.179.209",
+            "object_marking_refs": [
+                "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+            ],
+            "pattern": "[ipv4-addr:value = '65.92.179.209']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "spec_version": "2.1",
+            "type": "indicator",
+            "valid_from": "2026-10-06T08:08:42.832Z"
+        },
+        {
+            "created": "2026-10-06T08:08:42.832Z",
+            "created_by_ref": "identity--2b63cbd5-cbaa-5b07-8383-f9e3731ca479",
+            "external_references": [
+                {
+                    "description": "Indicator reported as malicious by crowdsec",
+                    "source_name": "crowdsec"
+                },
+                {
+                    "description": "Indicator reported as malicious by abuseipdb",
+                    "source_name": "abuseipdb"
+                },
+                {
+                    "description": "Indicator reported as malicious by otx",
+                    "source_name": "otx"
+                }
+            ],
+            "id": "indicator--3324787c-950f-5703-8d00-f20cfa1d621d",
+            "labels": [
+                "malicious-activity"
+            ],
+            "modified": "2026-10-06T08:08:42.832Z",
+            "name": "70.179.231.40",
+            "object_marking_refs": [
+                "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+            ],
+            "pattern": "[ipv4-addr:value = '70.179.231.40']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "spec_version": "2.1",
+            "type": "indicator",
+            "valid_from": "2026-10-06T08:08:42.832Z"
+        },
+        {
+            "created": "2026-10-06T08:08:42.832Z",
+            "created_by_ref": "identity--2b63cbd5-cbaa-5b07-8383-f9e3731ca479",
+            "external_references": [
+                {
+                    "description": "Indicator reported as malicious by crowdsec",
+                    "source_name": "crowdsec"
+                },
+                {
+                    "description": "Indicator reported as malicious by abuseipdb",
+                    "source_name": "abuseipdb"
+                },
+                {
+                    "description": "Indicator reported as malicious by otx",
+                    "source_name": "otx"
+                }
+            ],
+            "id": "indicator--d7d4f933-6c0a-57c2-87e3-008035ccbd3f",
+            "labels": [
+                "malicious-activity"
+            ],
+            "modified": "2026-10-06T08:08:42.832Z",
+            "name": "66.168.225.183",
+            "object_marking_refs": [
+                "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+            ],
+            "pattern": "[ipv4-addr:value = '66.168.225.183']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "spec_version": "2.1",
+            "type": "indicator",
+            "valid_from": "2026-10-06T08:08:42.832Z"
+        },
+        {
+            "created": "2026-10-06T08:08:42.832Z",
+            "created_by_ref": "identity--2b63cbd5-cbaa-5b07-8383-f9e3731ca479",
+            "external_references": [
+                {
+                    "description": "Indicator reported as malicious by crowdsec",
+                    "source_name": "crowdsec"
+                },
+                {
+                    "description": "Indicator reported as malicious by abuseipdb",
+                    "source_name": "abuseipdb"
+                },
+                {
+                    "description": "Indicator reported as malicious by otx",
+                    "source_name": "otx"
+                }
+            ],
+            "id": "indicator--bc2c43f6-f2ec-59f5-987d-b1bbe368ad99",
+            "labels": [
+                "malicious-activity"
+            ],
+            "modified": "2026-10-06T08:08:42.832Z",
+            "name": "86.230.16.121",
+            "object_marking_refs": [
+                "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+            ],
+            "pattern": "[ipv4-addr:value = '86.230.16.121']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "spec_version": "2.1",
+            "type": "indicator",
+            "valid_from": "2026-10-06T08:08:42.832Z"
+        },
+        {
+            "created": "2026-10-06T08:08:42.832Z",
+            "created_by_ref": "identity--2b63cbd5-cbaa-5b07-8383-f9e3731ca479",
+            "external_references": [
+                {
+                    "description": "Indicator reported as malicious by crowdsec",
+                    "source_name": "crowdsec"
+                },
+                {
+                    "description": "Indicator reported as malicious by abuseipdb",
+                    "source_name": "abuseipdb"
+                },
+                {
+                    "description": "Indicator reported as malicious by otx",
+                    "source_name": "otx"
+                }
+            ],
+            "id": "indicator--7284584c-13cd-5f88-88dd-e97cfe79d23c",
+            "labels": [
+                "malicious-activity"
+            ],
+            "modified": "2026-10-06T08:08:42.832Z",
+            "name": "91.86.87.205",
+            "object_marking_refs": [
+                "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+            ],
+            "pattern": "[ipv4-addr:value = '91.86.87.205']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "spec_version": "2.1",
+            "type": "indicator",
+            "valid_from": "2026-10-06T08:08:42.832Z"
+        },
+        {
+            "created": "2026-10-06T08:08:42.832Z",
+            "created_by_ref": "identity--2b63cbd5-cbaa-5b07-8383-f9e3731ca479",
+            "external_references": [
+                {
+                    "description": "Indicator reported as malicious by crowdsec",
+                    "source_name": "crowdsec"
+                },
+                {
+                    "description": "Indicator reported as malicious by abuseipdb",
+                    "source_name": "abuseipdb"
+                },
+                {
+                    "description": "Indicator reported as malicious by otx",
+                    "source_name": "otx"
+                }
+            ],
+            "id": "indicator--d7f16b70-aa8f-5448-8274-cce7b44ef859",
+            "labels": [
+                "malicious-activity"
+            ],
+            "modified": "2026-10-06T08:08:42.832Z",
+            "name": "103.193.144.15",
+            "object_marking_refs": [
+                "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+            ],
+            "pattern": "[ipv4-addr:value = '103.193.144.15']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "spec_version": "2.1",
+            "type": "indicator",
+            "valid_from": "2026-10-06T08:08:42.832Z"
+        },
+        {
+            "created": "2026-10-06T08:08:42.832Z",
+            "created_by_ref": "identity--2b63cbd5-cbaa-5b07-8383-f9e3731ca479",
+            "external_references": [
+                {
+                    "description": "Indicator reported as malicious by crowdsec",
+                    "source_name": "crowdsec"
+                },
+                {
+                    "description": "Indicator reported as malicious by abuseipdb",
+                    "source_name": "abuseipdb"
+                },
+                {
+                    "description": "Indicator reported as malicious by otx",
+                    "source_name": "otx"
+                }
+            ],
+            "id": "indicator--afba0f85-3c84-5d03-b36e-3c7c4ccca0db",
+            "labels": [
+                "malicious-activity"
+            ],
+            "modified": "2026-10-06T08:08:42.832Z",
+            "name": "202.179.190.20",
+            "object_marking_refs": [
+                "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+            ],
+            "pattern": "[ipv4-addr:value = '202.179.190.20']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "spec_version": "2.1",
+            "type": "indicator",
+            "valid_from": "2026-10-06T08:08:42.832Z"
+        },
+        {
+            "created": "2026-10-06T08:08:42.832Z",
+            "created_by_ref": "identity--2b63cbd5-cbaa-5b07-8383-f9e3731ca479",
+            "external_references": [
+                {
+                    "description": "Indicator reported as malicious by crowdsec",
+                    "source_name": "crowdsec"
+                },
+                {
+                    "description": "Indicator reported as malicious by abuseipdb",
+                    "source_name": "abuseipdb"
+                },
+                {
+                    "description": "Indicator reported as malicious by otx",
+                    "source_name": "otx"
+                }
+            ],
+            "id": "indicator--a797f9cf-253c-5e7c-b3a3-6627e013c175",
+            "labels": [
+                "malicious-activity"
+            ],
+            "modified": "2026-10-06T08:08:42.832Z",
+            "name": "202.58.66.51",
+            "object_marking_refs": [
+                "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+            ],
+            "pattern": "[ipv4-addr:value = '202.58.66.51']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "spec_version": "2.1",
+            "type": "indicator",
+            "valid_from": "2026-10-06T08:08:42.832Z"
+        },
+        {
+            "created": "2026-10-06T08:08:42.832Z",
+            "created_by_ref": "identity--2b63cbd5-cbaa-5b07-8383-f9e3731ca479",
+            "external_references": [
+                {
+                    "description": "Indicator reported as malicious by crowdsec",
+                    "source_name": "crowdsec"
+                },
+                {
+                    "description": "Indicator reported as malicious by abuseipdb",
+                    "source_name": "abuseipdb"
+                },
+                {
+                    "description": "Indicator reported as malicious by otx",
+                    "source_name": "otx"
+                }
+            ],
+            "id": "indicator--57fb2012-40a1-5bea-89c6-5d9ffe217d9a",
+            "labels": [
+                "malicious-activity"
+            ],
+            "modified": "2026-10-06T08:08:42.832Z",
+            "name": "157.20.253.38",
+            "object_marking_refs": [
+                "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+            ],
+            "pattern": "[ipv4-addr:value = '157.20.253.38']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "spec_version": "2.1",
+            "type": "indicator",
+            "valid_from": "2026-10-06T08:08:42.832Z"
+        },
+        {
+            "created": "2026-10-06T08:08:42.832Z",
+            "created_by_ref": "identity--2b63cbd5-cbaa-5b07-8383-f9e3731ca479",
+            "external_references": [
+                {
+                    "description": "Indicator reported as malicious by crowdsec",
+                    "source_name": "crowdsec"
+                },
+                {
+                    "description": "Indicator reported as malicious by abuseipdb",
+                    "source_name": "abuseipdb"
+                },
+                {
+                    "description": "Indicator reported as malicious by otx",
+                    "source_name": "otx"
+                }
+            ],
+            "id": "indicator--8eeb9a1d-a779-5dc3-b908-c3bd326a90fc",
+            "labels": [
+                "malicious-activity"
+            ],
+            "modified": "2026-10-06T08:08:42.832Z",
+            "name": "103.61.5.98",
+            "object_marking_refs": [
+                "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+            ],
+            "pattern": "[ipv4-addr:value = '103.61.5.98']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "spec_version": "2.1",
+            "type": "indicator",
+            "valid_from": "2026-10-06T08:08:42.832Z"
+        },
+        {
+            "created": "2026-10-06T08:08:42.832Z",
+            "created_by_ref": "identity--2b63cbd5-cbaa-5b07-8383-f9e3731ca479",
+            "external_references": [
+                {
+                    "description": "Indicator reported as malicious by crowdsec",
+                    "source_name": "crowdsec"
+                },
+                {
+                    "description": "Indicator reported as malicious by abuseipdb",
+                    "source_name": "abuseipdb"
+                },
+                {
+                    "description": "Indicator reported as malicious by otx",
+                    "source_name": "otx"
+                }
+            ],
+            "id": "indicator--abb44d71-c2d1-56de-bf1d-d56413a8ceb5",
+            "labels": [
+                "malicious-activity"
+            ],
+            "modified": "2026-10-06T08:08:42.832Z",
+            "name": "38.248.19.183",
+            "object_marking_refs": [
+                "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+            ],
+            "pattern": "[ipv4-addr:value = '38.248.19.183']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "spec_version": "2.1",
+            "type": "indicator",
+            "valid_from": "2026-10-06T08:08:42.832Z"
+        },
+        {
+            "created": "2026-10-06T08:08:42.832Z",
+            "created_by_ref": "identity--2b63cbd5-cbaa-5b07-8383-f9e3731ca479",
+            "external_references": [
+                {
+                    "description": "Indicator reported as malicious by crowdsec",
+                    "source_name": "crowdsec"
+                },
+                {
+                    "description": "Indicator reported as malicious by abuseipdb",
+                    "source_name": "abuseipdb"
+                },
+                {
+                    "description": "Indicator reported as malicious by otx",
+                    "source_name": "otx"
+                }
+            ],
+            "id": "indicator--1676b764-67f2-5822-ad95-5ba13b2ee98c",
+            "labels": [
+                "malicious-activity"
+            ],
+            "modified": "2026-10-06T08:08:42.832Z",
+            "name": "157.20.252.39",
+            "object_marking_refs": [
+                "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+            ],
+            "pattern": "[ipv4-addr:value = '157.20.252.39']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "spec_version": "2.1",
+            "type": "indicator",
+            "valid_from": "2026-10-06T08:08:42.832Z"
+        },
+        {
+            "created": "2026-10-06T08:08:42.832Z",
+            "created_by_ref": "identity--2b63cbd5-cbaa-5b07-8383-f9e3731ca479",
+            "external_references": [
+                {
+                    "description": "Indicator reported as malicious by crowdsec",
+                    "source_name": "crowdsec"
+                },
+                {
+                    "description": "Indicator reported as malicious by abuseipdb",
+                    "source_name": "abuseipdb"
+                },
+                {
+                    "description": "Indicator reported as malicious by otx",
+                    "source_name": "otx"
+                }
+            ],
+            "id": "indicator--211c76fd-0a59-52f4-a5ef-69116d741984",
+            "labels": [
+                "malicious-activity"
+            ],
+            "modified": "2026-10-06T08:08:42.832Z",
+            "name": "203.96.229.227",
+            "object_marking_refs": [
+                "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+            ],
+            "pattern": "[ipv4-addr:value = '203.96.229.227']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "spec_version": "2.1",
+            "type": "indicator",
+            "valid_from": "2026-10-06T08:08:42.832Z"
+        },
+        {
+            "created": "2026-10-06T08:08:42.832Z",
+            "created_by_ref": "identity--2b63cbd5-cbaa-5b07-8383-f9e3731ca479",
+            "external_references": [
+                {
+                    "description": "Indicator reported as malicious by crowdsec",
+                    "source_name": "crowdsec"
+                },
+                {
+                    "description": "Indicator reported as malicious by abuseipdb",
+                    "source_name": "abuseipdb"
+                },
+                {
+                    "description": "Indicator reported as malicious by otx",
+                    "source_name": "otx"
+                }
+            ],
+            "id": "indicator--defc3684-1f8b-5129-ae1a-8beb297489bc",
+            "labels": [
+                "malicious-activity"
+            ],
+            "modified": "2026-10-06T08:08:42.832Z",
+            "name": "103.147.73.36",
+            "object_marking_refs": [
+                "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+            ],
+            "pattern": "[ipv4-addr:value = '103.147.73.36']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "spec_version": "2.1",
+            "type": "indicator",
+            "valid_from": "2026-10-06T08:08:42.832Z"
+        },
+        {
+            "created": "2026-10-06T08:08:42.832Z",
+            "created_by_ref": "identity--2b63cbd5-cbaa-5b07-8383-f9e3731ca479",
+            "external_references": [
+                {
+                    "description": "Indicator reported as malicious by crowdsec",
+                    "source_name": "crowdsec"
+                },
+                {
+                    "description": "Indicator reported as malicious by abuseipdb",
+                    "source_name": "abuseipdb"
+                },
+                {
+                    "description": "Indicator reported as malicious by otx",
+                    "source_name": "otx"
+                }
+            ],
+            "id": "indicator--b2a7b7fd-bc09-5d3e-a178-619a5f4cc5d3",
+            "labels": [
+                "malicious-activity"
+            ],
+            "modified": "2026-10-06T08:08:42.832Z",
+            "name": "103.155.166.246",
+            "object_marking_refs": [
+                "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+            ],
+            "pattern": "[ipv4-addr:value = '103.155.166.246']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "spec_version": "2.1",
+            "type": "indicator",
+            "valid_from": "2026-10-06T08:08:42.832Z"
+        },
+        {
+            "created": "2026-10-06T08:08:42.832Z",
+            "created_by_ref": "identity--2b63cbd5-cbaa-5b07-8383-f9e3731ca479",
+            "external_references": [
+                {
+                    "description": "Indicator reported as malicious by crowdsec",
+                    "source_name": "crowdsec"
+                },
+                {
+                    "description": "Indicator reported as malicious by abuseipdb",
+                    "source_name": "abuseipdb"
+                },
+                {
+                    "description": "Indicator reported as malicious by otx",
+                    "source_name": "otx"
+                }
+            ],
+            "id": "indicator--5b039401-b7c2-5818-94cf-ba2bc1370575",
+            "labels": [
+                "malicious-activity"
+            ],
+            "modified": "2026-10-06T08:08:42.832Z",
+            "name": "103.28.112.185",
+            "object_marking_refs": [
+                "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+            ],
+            "pattern": "[ipv4-addr:value = '103.28.112.185']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "spec_version": "2.1",
+            "type": "indicator",
+            "valid_from": "2026-10-06T08:08:42.832Z"
+        },
+        {
+            "created": "2026-10-06T08:08:42.832Z",
+            "created_by_ref": "identity--2b63cbd5-cbaa-5b07-8383-f9e3731ca479",
+            "external_references": [
+                {
+                    "description": "Indicator reported as malicious by crowdsec",
+                    "source_name": "crowdsec"
+                },
+                {
+                    "description": "Indicator reported as malicious by abuseipdb",
+                    "source_name": "abuseipdb"
+                },
+                {
+                    "description": "Indicator reported as malicious by otx",
+                    "source_name": "otx"
+                }
+            ],
+            "id": "indicator--ab9b36f3-3d47-5aab-a859-58a3689f540b",
+            "labels": [
+                "malicious-activity"
+            ],
+            "modified": "2026-10-06T08:08:42.832Z",
+            "name": "114.79.2.185",
+            "object_marking_refs": [
+                "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+            ],
+            "pattern": "[ipv4-addr:value = '114.79.2.185']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "spec_version": "2.1",
+            "type": "indicator",
+            "valid_from": "2026-10-06T08:08:42.832Z"
+        },
+        {
+            "created": "2026-10-06T08:08:42.832Z",
+            "created_by_ref": "identity--2b63cbd5-cbaa-5b07-8383-f9e3731ca479",
+            "external_references": [
+                {
+                    "description": "Indicator reported as malicious by crowdsec",
+                    "source_name": "crowdsec"
+                },
+                {
+                    "description": "Indicator reported as malicious by abuseipdb",
+                    "source_name": "abuseipdb"
+                },
+                {
+                    "description": "Indicator reported as malicious by otx",
+                    "source_name": "otx"
+                }
+            ],
+            "id": "indicator--5d901e1a-572c-508e-9a6a-74f4ff70d396",
+            "labels": [
+                "malicious-activity"
+            ],
+            "modified": "2026-10-06T08:08:42.832Z",
+            "name": "125.166.150.184",
+            "object_marking_refs": [
+                "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+            ],
+            "pattern": "[ipv4-addr:value = '125.166.150.184']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "spec_version": "2.1",
+            "type": "indicator",
+            "valid_from": "2026-10-06T08:08:42.832Z"
+        },
+        {
+            "created": "2026-10-06T08:08:42.832Z",
+            "created_by_ref": "identity--2b63cbd5-cbaa-5b07-8383-f9e3731ca479",
+            "external_references": [
+                {
+                    "description": "Indicator reported as malicious by crowdsec",
+                    "source_name": "crowdsec"
+                },
+                {
+                    "description": "Indicator reported as malicious by abuseipdb",
+                    "source_name": "abuseipdb"
+                },
+                {
+                    "description": "Indicator reported as malicious by otx",
+                    "source_name": "otx"
+                }
+            ],
+            "id": "indicator--04bfd7d9-a604-5f8d-9901-5ddadda4d072",
+            "labels": [
+                "malicious-activity"
+            ],
+            "modified": "2026-10-06T08:08:42.832Z",
+            "name": "160.250.42.76",
+            "object_marking_refs": [
+                "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+            ],
+            "pattern": "[ipv4-addr:value = '160.250.42.76']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "spec_version": "2.1",
+            "type": "indicator",
+            "valid_from": "2026-10-06T08:08:42.832Z"
+        },
+        {
+            "created": "2026-10-06T08:08:42.832Z",
+            "created_by_ref": "identity--2b63cbd5-cbaa-5b07-8383-f9e3731ca479",
+            "external_references": [
+                {
+                    "description": "Indicator reported as malicious by crowdsec",
+                    "source_name": "crowdsec"
+                },
+                {
+                    "description": "Indicator reported as malicious by abuseipdb",
+                    "source_name": "abuseipdb"
+                },
+                {
+                    "description": "Indicator reported as malicious by otx",
+                    "source_name": "otx"
+                }
+            ],
+            "id": "indicator--679b6db2-e6f8-50c8-ae5e-6e57c8d38496",
+            "labels": [
+                "malicious-activity"
+            ],
+            "modified": "2026-10-06T08:08:42.832Z",
+            "name": "180.243.252.232",
+            "object_marking_refs": [
+                "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+            ],
+            "pattern": "[ipv4-addr:value = '180.243.252.232']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "spec_version": "2.1",
+            "type": "indicator",
+            "valid_from": "2026-10-06T08:08:42.832Z"
+        },
+        {
+            "created": "2026-10-06T08:08:42.832Z",
+            "created_by_ref": "identity--2b63cbd5-cbaa-5b07-8383-f9e3731ca479",
+            "external_references": [
+                {
+                    "description": "Indicator reported as malicious by crowdsec",
+                    "source_name": "crowdsec"
+                },
+                {
+                    "description": "Indicator reported as malicious by abuseipdb",
+                    "source_name": "abuseipdb"
+                },
+                {
+                    "description": "Indicator reported as malicious by otx",
+                    "source_name": "otx"
+                }
+            ],
+            "id": "indicator--299b90d2-ee6c-5a01-b63f-77b546c66698",
+            "labels": [
+                "malicious-activity"
+            ],
+            "modified": "2026-10-06T08:08:42.832Z",
+            "name": "202.164.218.61",
+            "object_marking_refs": [
+                "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+            ],
+            "pattern": "[ipv4-addr:value = '202.164.218.61']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "spec_version": "2.1",
+            "type": "indicator",
+            "valid_from": "2026-10-06T08:08:42.832Z"
+        },
+        {
+            "created": "2026-10-06T08:08:42.832Z",
+            "created_by_ref": "identity--2b63cbd5-cbaa-5b07-8383-f9e3731ca479",
+            "description": "182.253.123.192 indicates T1190",
+            "id": "relationship--659698f4-a083-5ccb-be57-8d7f2ae42f9e",
+            "modified": "2026-10-06T08:08:42.832Z",
+            "object_marking_refs": [
+                "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+            ],
+            "relationship_type": "indicates",
+            "source_ref": "indicator--165dbac5-a15f-5c5c-b325-e28e3b8b25cc",
+            "spec_version": "2.1",
+            "target_ref": "attack-pattern--3f886f2a-874f-4333-b794-aa6075009b1c",
+            "type": "relationship"
+        },
+        {
+            "created": "2026-10-06T08:08:42.832Z",
+            "created_by_ref": "identity--2b63cbd5-cbaa-5b07-8383-f9e3731ca479",
+            "description": "103.130.19.192 indicates T1190",
+            "id": "relationship--253dfe58-be2d-5298-bec7-40ab57b83e09",
+            "modified": "2026-10-06T08:08:42.832Z",
+            "object_marking_refs": [
+                "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+            ],
+            "relationship_type": "indicates",
+            "source_ref": "indicator--20ca5e84-8625-5ed2-94c4-70f68b1bdc17",
+            "spec_version": "2.1",
+            "target_ref": "attack-pattern--3f886f2a-874f-4333-b794-aa6075009b1c",
+            "type": "relationship"
+        },
+        {
+            "created": "2026-10-06T08:08:42.832Z",
+            "created_by_ref": "identity--2b63cbd5-cbaa-5b07-8383-f9e3731ca479",
+            "description": "110.138.91.178 indicates T1190",
+            "id": "relationship--e283946a-80f0-5356-9e40-c5e3cc8fc2bc",
+            "modified": "2026-10-06T08:08:42.832Z",
+            "object_marking_refs": [
+                "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+            ],
+            "relationship_type": "indicates",
+            "source_ref": "indicator--e0ced714-9931-58c5-b6af-043d78f180a0",
+            "spec_version": "2.1",
+            "target_ref": "attack-pattern--3f886f2a-874f-4333-b794-aa6075009b1c",
+            "type": "relationship"
+        },
+        {
+            "created": "2026-10-06T08:08:42.832Z",
+            "created_by_ref": "identity--2b63cbd5-cbaa-5b07-8383-f9e3731ca479",
+            "description": "110.139.114.123 indicates T1190",
+            "id": "relationship--8e89bff7-d75a-53e3-9ef2-3717ec531324",
+            "modified": "2026-10-06T08:08:42.832Z",
+            "object_marking_refs": [
+                "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+            ],
+            "relationship_type": "indicates",
+            "source_ref": "indicator--a009f7e0-8d33-52f9-a51f-7556b99de4ae",
+            "spec_version": "2.1",
+            "target_ref": "attack-pattern--3f886f2a-874f-4333-b794-aa6075009b1c",
+            "type": "relationship"
+        },
+        {
+            "created": "2026-10-06T08:08:42.832Z",
+            "created_by_ref": "identity--2b63cbd5-cbaa-5b07-8383-f9e3731ca479",
+            "description": "103.76.108.141 indicates T1190",
+            "id": "relationship--4f0a07a8-7b91-5275-9534-c900297c7a55",
+            "modified": "2026-10-06T08:08:42.832Z",
+            "object_marking_refs": [
+                "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+            ],
+            "relationship_type": "indicates",
+            "source_ref": "indicator--89e82573-adda-5828-a95a-8d43c7b4a5de",
+            "spec_version": "2.1",
+            "target_ref": "attack-pattern--3f886f2a-874f-4333-b794-aa6075009b1c",
+            "type": "relationship"
+        },
+        {
+            "created": "2026-10-06T08:08:42.832Z",
+            "created_by_ref": "identity--2b63cbd5-cbaa-5b07-8383-f9e3731ca479",
+            "description": "114.12.3.151 indicates T1190",
+            "id": "relationship--99fa81a2-2197-5f1c-9928-0132281c7412",
+            "modified": "2026-10-06T08:08:42.832Z",
+            "object_marking_refs": [
+                "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+            ],
+            "relationship_type": "indicates",
+            "source_ref": "indicator--149a0344-f663-50ea-9091-65c268269ac5",
+            "spec_version": "2.1",
+            "target_ref": "attack-pattern--3f886f2a-874f-4333-b794-aa6075009b1c",
+            "type": "relationship"
+        },
+        {
+            "created": "2026-10-06T08:08:42.832Z",
+            "created_by_ref": "identity--2b63cbd5-cbaa-5b07-8383-f9e3731ca479",
+            "description": "160.22.129.20 indicates T1190",
+            "id": "relationship--1922a337-9a9b-5a23-b523-3aad36d218e1",
+            "modified": "2026-10-06T08:08:42.832Z",
+            "object_marking_refs": [
+                "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+            ],
+            "relationship_type": "indicates",
+            "source_ref": "indicator--ed98a696-4bfc-5224-93a0-a1d9a0a952a5",
+            "spec_version": "2.1",
+            "target_ref": "attack-pattern--3f886f2a-874f-4333-b794-aa6075009b1c",
+            "type": "relationship"
+        },
+        {
+            "created": "2026-10-06T08:08:42.832Z",
+            "created_by_ref": "identity--2b63cbd5-cbaa-5b07-8383-f9e3731ca479",
+            "description": "182.253.183.4 indicates T1190",
+            "id": "relationship--b3002cb3-9fe9-520b-95c0-18ffd8ac680e",
+            "modified": "2026-10-06T08:08:42.832Z",
+            "object_marking_refs": [
+                "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+            ],
+            "relationship_type": "indicates",
+            "source_ref": "indicator--a8f3d2eb-e4d9-59d6-8e85-a20fb68b2b61",
+            "spec_version": "2.1",
+            "target_ref": "attack-pattern--3f886f2a-874f-4333-b794-aa6075009b1c",
+            "type": "relationship"
+        },
+        {
+            "created": "2026-10-06T08:08:42.832Z",
+            "created_by_ref": "identity--2b63cbd5-cbaa-5b07-8383-f9e3731ca479",
+            "description": "103.120.173.80 indicates T1190",
+            "id": "relationship--6a8f2511-7f3a-5186-94c4-39bc8c21a624",
+            "modified": "2026-10-06T08:08:42.832Z",
+            "object_marking_refs": [
+                "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+            ],
+            "relationship_type": "indicates",
+            "source_ref": "indicator--cf23b1dc-c707-5a90-8a35-2e5a4e827799",
+            "spec_version": "2.1",
+            "target_ref": "attack-pattern--3f886f2a-874f-4333-b794-aa6075009b1c",
+            "type": "relationship"
+        },
+        {
+            "created": "2026-10-06T08:08:42.832Z",
+            "created_by_ref": "identity--2b63cbd5-cbaa-5b07-8383-f9e3731ca479",
+            "description": "103.139.10.125 indicates T1190",
+            "id": "relationship--c181b32f-e10b-5966-b573-6584a0b72135",
+            "modified": "2026-10-06T08:08:42.832Z",
+            "object_marking_refs": [
+                "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+            ],
+            "relationship_type": "indicates",
+            "source_ref": "indicator--7eb5764c-4cbf-5211-8f7c-9201a9b88a8c",
+            "spec_version": "2.1",
+            "target_ref": "attack-pattern--3f886f2a-874f-4333-b794-aa6075009b1c",
+            "type": "relationship"
+        },
+        {
+            "created": "2026-10-06T08:08:42.832Z",
+            "created_by_ref": "identity--2b63cbd5-cbaa-5b07-8383-f9e3731ca479",
+            "description": "114.141.50.10 indicates T1190",
+            "id": "relationship--307ac287-1e1c-5989-9469-2b2e9869e0b6",
+            "modified": "2026-10-06T08:08:42.832Z",
+            "object_marking_refs": [
+                "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+            ],
+            "relationship_type": "indicates",
+            "source_ref": "indicator--07c3dba6-a84c-5392-9fdc-65f09101bdef",
+            "spec_version": "2.1",
+            "target_ref": "attack-pattern--3f886f2a-874f-4333-b794-aa6075009b1c",
+            "type": "relationship"
+        },
+        {
+            "created": "2026-10-06T08:08:42.832Z",
+            "created_by_ref": "identity--2b63cbd5-cbaa-5b07-8383-f9e3731ca479",
+            "description": "151.244.36.14 indicates T1190",
+            "id": "relationship--e3d94e37-eccc-5010-9e9e-08fd49af57e5",
+            "modified": "2026-10-06T08:08:42.832Z",
+            "object_marking_refs": [
+                "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+            ],
+            "relationship_type": "indicates",
+            "source_ref": "indicator--8cd91d9b-740c-5090-a46c-37d46eb936c5",
+            "spec_version": "2.1",
+            "target_ref": "attack-pattern--3f886f2a-874f-4333-b794-aa6075009b1c",
+            "type": "relationship"
+        },
+        {
+            "created": "2026-10-06T08:08:42.832Z",
+            "created_by_ref": "identity--2b63cbd5-cbaa-5b07-8383-f9e3731ca479",
+            "description": "46.35.206.109 indicates T1190",
+            "id": "relationship--c8995450-da16-52f0-8904-7d0f7a965412",
+            "modified": "2026-10-06T08:08:42.832Z",
+            "object_marking_refs": [
+                "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+            ],
+            "relationship_type": "indicates",
+            "source_ref": "indicator--5ca94e4c-f0a2-54bb-8e53-faa26b5d747e",
+            "spec_version": "2.1",
+            "target_ref": "attack-pattern--3f886f2a-874f-4333-b794-aa6075009b1c",
+            "type": "relationship"
+        },
+        {
+            "created": "2026-10-06T08:08:42.832Z",
+            "created_by_ref": "identity--2b63cbd5-cbaa-5b07-8383-f9e3731ca479",
+            "description": "43.241.131.70 indicates T1190",
+            "id": "relationship--06d1b66f-6294-585f-bc73-04086fd84cb4",
+            "modified": "2026-10-06T08:08:42.832Z",
+            "object_marking_refs": [
+                "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+            ],
+            "relationship_type": "indicates",
+            "source_ref": "indicator--7ca21294-b3af-5507-8144-cbbe3cba83e9",
+            "spec_version": "2.1",
+            "target_ref": "attack-pattern--3f886f2a-874f-4333-b794-aa6075009b1c",
+            "type": "relationship"
+        },
+        {
+            "created": "2026-10-06T08:08:42.832Z",
+            "created_by_ref": "identity--2b63cbd5-cbaa-5b07-8383-f9e3731ca479",
+            "description": "80.179.186.190 indicates T1190",
+            "id": "relationship--dce81fae-3f9c-5849-8858-43b022bfbe6e",
+            "modified": "2026-10-06T08:08:42.832Z",
+            "object_marking_refs": [
+                "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+            ],
+            "relationship_type": "indicates",
+            "source_ref": "indicator--b9c6e7a3-19a9-5508-b1b2-daefb4795a0e",
+            "spec_version": "2.1",
+            "target_ref": "attack-pattern--3f886f2a-874f-4333-b794-aa6075009b1c",
+            "type": "relationship"
+        },
+        {
+            "created": "2026-10-06T08:08:42.832Z",
+            "created_by_ref": "identity--2b63cbd5-cbaa-5b07-8383-f9e3731ca479",
+            "description": "63.249.161.9 indicates T1190",
+            "id": "relationship--714c1da8-81f1-5e39-8b06-b95d29465c47",
+            "modified": "2026-10-06T08:08:42.832Z",
+            "object_marking_refs": [
+                "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+            ],
+            "relationship_type": "indicates",
+            "source_ref": "indicator--271cf5e7-9e28-5eee-92f3-cd82c27cc751",
+            "spec_version": "2.1",
+            "target_ref": "attack-pattern--3f886f2a-874f-4333-b794-aa6075009b1c",
+            "type": "relationship"
+        },
+        {
+            "created": "2026-10-06T08:08:42.832Z",
+            "created_by_ref": "identity--2b63cbd5-cbaa-5b07-8383-f9e3731ca479",
+            "description": "25.235.33.191 indicates T1190",
+            "id": "relationship--a62f2960-d720-5c11-bf56-6432ac1e98d6",
+            "modified": "2026-10-06T08:08:42.832Z",
+            "object_marking_refs": [
+                "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+            ],
+            "relationship_type": "indicates",
+            "source_ref": "indicator--100a7db1-6ee9-51b9-84bd-d30658b62816",
+            "spec_version": "2.1",
+            "target_ref": "attack-pattern--3f886f2a-874f-4333-b794-aa6075009b1c",
+            "type": "relationship"
+        },
+        {
+            "created": "2026-10-06T08:08:42.832Z",
+            "created_by_ref": "identity--2b63cbd5-cbaa-5b07-8383-f9e3731ca479",
+            "description": "55.248.180.202 indicates T1190",
+            "id": "relationship--49d83981-eb2a-5c8b-807f-2790540e4996",
+            "modified": "2026-10-06T08:08:42.832Z",
+            "object_marking_refs": [
+                "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+            ],
+            "relationship_type": "indicates",
+            "source_ref": "indicator--9e374ad0-6dc1-5bf9-b443-401f38f8d34f",
+            "spec_version": "2.1",
+            "target_ref": "attack-pattern--3f886f2a-874f-4333-b794-aa6075009b1c",
+            "type": "relationship"
+        },
+        {
+            "created": "2026-10-06T08:08:42.832Z",
+            "created_by_ref": "identity--2b63cbd5-cbaa-5b07-8383-f9e3731ca479",
+            "description": "81.40.182.55 indicates T1190",
+            "id": "relationship--81aa430b-3aee-59ce-9f1b-3fe9011b20ec",
+            "modified": "2026-10-06T08:08:42.832Z",
+            "object_marking_refs": [
+                "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+            ],
+            "relationship_type": "indicates",
+            "source_ref": "indicator--f8ad42d7-e361-5d92-9809-3bd14dab8277",
+            "spec_version": "2.1",
+            "target_ref": "attack-pattern--3f886f2a-874f-4333-b794-aa6075009b1c",
+            "type": "relationship"
+        },
+        {
+            "created": "2026-10-06T08:08:42.832Z",
+            "created_by_ref": "identity--2b63cbd5-cbaa-5b07-8383-f9e3731ca479",
+            "description": "65.92.179.209 indicates T1190",
+            "id": "relationship--d79bcd8f-2d05-5e4c-8e0e-5e56cfbabcf6",
+            "modified": "2026-10-06T08:08:42.832Z",
+            "object_marking_refs": [
+                "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+            ],
+            "relationship_type": "indicates",
+            "source_ref": "indicator--8f194fc8-b9fa-558c-8ea0-ab01662b0d4c",
+            "spec_version": "2.1",
+            "target_ref": "attack-pattern--3f886f2a-874f-4333-b794-aa6075009b1c",
+            "type": "relationship"
+        },
+        {
+            "created": "2026-10-06T08:08:42.832Z",
+            "created_by_ref": "identity--2b63cbd5-cbaa-5b07-8383-f9e3731ca479",
+            "description": "70.179.231.40 indicates T1190",
+            "id": "relationship--a158f68b-d758-5861-bbae-8592be856f34",
+            "modified": "2026-10-06T08:08:42.832Z",
+            "object_marking_refs": [
+                "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+            ],
+            "relationship_type": "indicates",
+            "source_ref": "indicator--3324787c-950f-5703-8d00-f20cfa1d621d",
+            "spec_version": "2.1",
+            "target_ref": "attack-pattern--3f886f2a-874f-4333-b794-aa6075009b1c",
+            "type": "relationship"
+        },
+        {
+            "created": "2026-10-06T08:08:42.832Z",
+            "created_by_ref": "identity--2b63cbd5-cbaa-5b07-8383-f9e3731ca479",
+            "description": "66.168.225.183 indicates T1190",
+            "id": "relationship--bc94f888-65cd-53a7-9a88-98af416a41dd",
+            "modified": "2026-10-06T08:08:42.832Z",
+            "object_marking_refs": [
+                "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+            ],
+            "relationship_type": "indicates",
+            "source_ref": "indicator--d7d4f933-6c0a-57c2-87e3-008035ccbd3f",
+            "spec_version": "2.1",
+            "target_ref": "attack-pattern--3f886f2a-874f-4333-b794-aa6075009b1c",
+            "type": "relationship"
+        },
+        {
+            "created": "2026-10-06T08:08:42.832Z",
+            "created_by_ref": "identity--2b63cbd5-cbaa-5b07-8383-f9e3731ca479",
+            "description": "86.230.16.121 indicates T1190",
+            "id": "relationship--f9a9edae-b196-5160-9a04-fcbdf4f62b33",
+            "modified": "2026-10-06T08:08:42.832Z",
+            "object_marking_refs": [
+                "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+            ],
+            "relationship_type": "indicates",
+            "source_ref": "indicator--bc2c43f6-f2ec-59f5-987d-b1bbe368ad99",
+            "spec_version": "2.1",
+            "target_ref": "attack-pattern--3f886f2a-874f-4333-b794-aa6075009b1c",
+            "type": "relationship"
+        },
+        {
+            "created": "2026-10-06T08:08:42.832Z",
+            "created_by_ref": "identity--2b63cbd5-cbaa-5b07-8383-f9e3731ca479",
+            "description": "91.86.87.205 indicates T1190",
+            "id": "relationship--657ae75d-cc38-5cac-9e51-580eab5cd830",
+            "modified": "2026-10-06T08:08:42.832Z",
+            "object_marking_refs": [
+                "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+            ],
+            "relationship_type": "indicates",
+            "source_ref": "indicator--7284584c-13cd-5f88-88dd-e97cfe79d23c",
+            "spec_version": "2.1",
+            "target_ref": "attack-pattern--3f886f2a-874f-4333-b794-aa6075009b1c",
+            "type": "relationship"
+        },
+        {
+            "created": "2026-10-06T08:08:42.832Z",
+            "created_by_ref": "identity--2b63cbd5-cbaa-5b07-8383-f9e3731ca479",
+            "description": "103.193.144.15 indicates T1190",
+            "id": "relationship--3b4aa451-2476-56a1-a466-ed15255267f4",
+            "modified": "2026-10-06T08:08:42.832Z",
+            "object_marking_refs": [
+                "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+            ],
+            "relationship_type": "indicates",
+            "source_ref": "indicator--d7f16b70-aa8f-5448-8274-cce7b44ef859",
+            "spec_version": "2.1",
+            "target_ref": "attack-pattern--3f886f2a-874f-4333-b794-aa6075009b1c",
+            "type": "relationship"
+        },
+        {
+            "created": "2026-10-06T08:08:42.832Z",
+            "created_by_ref": "identity--2b63cbd5-cbaa-5b07-8383-f9e3731ca479",
+            "description": "202.179.190.20 indicates T1190",
+            "id": "relationship--f746ed28-d3aa-5060-82a8-95c2f75d7e29",
+            "modified": "2026-10-06T08:08:42.832Z",
+            "object_marking_refs": [
+                "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+            ],
+            "relationship_type": "indicates",
+            "source_ref": "indicator--afba0f85-3c84-5d03-b36e-3c7c4ccca0db",
+            "spec_version": "2.1",
+            "target_ref": "attack-pattern--3f886f2a-874f-4333-b794-aa6075009b1c",
+            "type": "relationship"
+        },
+        {
+            "created": "2026-10-06T08:08:42.832Z",
+            "created_by_ref": "identity--2b63cbd5-cbaa-5b07-8383-f9e3731ca479",
+            "description": "202.58.66.51 indicates T1190",
+            "id": "relationship--82173523-29fa-5fc9-be21-20856291a11c",
+            "modified": "2026-10-06T08:08:42.832Z",
+            "object_marking_refs": [
+                "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+            ],
+            "relationship_type": "indicates",
+            "source_ref": "indicator--a797f9cf-253c-5e7c-b3a3-6627e013c175",
+            "spec_version": "2.1",
+            "target_ref": "attack-pattern--3f886f2a-874f-4333-b794-aa6075009b1c",
+            "type": "relationship"
+        },
+        {
+            "created": "2026-10-06T08:08:42.832Z",
+            "created_by_ref": "identity--2b63cbd5-cbaa-5b07-8383-f9e3731ca479",
+            "description": "157.20.253.38 indicates T1190",
+            "id": "relationship--3f7e97a5-b035-50c5-b0b0-ec26ddb5dbf5",
+            "modified": "2026-10-06T08:08:42.832Z",
+            "object_marking_refs": [
+                "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+            ],
+            "relationship_type": "indicates",
+            "source_ref": "indicator--57fb2012-40a1-5bea-89c6-5d9ffe217d9a",
+            "spec_version": "2.1",
+            "target_ref": "attack-pattern--3f886f2a-874f-4333-b794-aa6075009b1c",
+            "type": "relationship"
+        },
+        {
+            "created": "2026-10-06T08:08:42.832Z",
+            "created_by_ref": "identity--2b63cbd5-cbaa-5b07-8383-f9e3731ca479",
+            "description": "103.61.5.98 indicates T1190",
+            "id": "relationship--43d8eb84-a85c-5ab8-8145-155a89d6451d",
+            "modified": "2026-10-06T08:08:42.832Z",
+            "object_marking_refs": [
+                "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+            ],
+            "relationship_type": "indicates",
+            "source_ref": "indicator--8eeb9a1d-a779-5dc3-b908-c3bd326a90fc",
+            "spec_version": "2.1",
+            "target_ref": "attack-pattern--3f886f2a-874f-4333-b794-aa6075009b1c",
+            "type": "relationship"
+        },
+        {
+            "created": "2026-10-06T08:08:42.832Z",
+            "created_by_ref": "identity--2b63cbd5-cbaa-5b07-8383-f9e3731ca479",
+            "description": "38.248.19.183 indicates T1190",
+            "id": "relationship--b051bd0c-7561-52ee-a65f-b68052a4b364",
+            "modified": "2026-10-06T08:08:42.832Z",
+            "object_marking_refs": [
+                "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+            ],
+            "relationship_type": "indicates",
+            "source_ref": "indicator--abb44d71-c2d1-56de-bf1d-d56413a8ceb5",
+            "spec_version": "2.1",
+            "target_ref": "attack-pattern--3f886f2a-874f-4333-b794-aa6075009b1c",
+            "type": "relationship"
+        },
+        {
+            "created": "2026-10-06T08:08:42.832Z",
+            "created_by_ref": "identity--2b63cbd5-cbaa-5b07-8383-f9e3731ca479",
+            "description": "157.20.252.39 indicates T1190",
+            "id": "relationship--7d075ebd-abee-5689-9c3d-e9e4e1ed155a",
+            "modified": "2026-10-06T08:08:42.832Z",
+            "object_marking_refs": [
+                "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+            ],
+            "relationship_type": "indicates",
+            "source_ref": "indicator--1676b764-67f2-5822-ad95-5ba13b2ee98c",
+            "spec_version": "2.1",
+            "target_ref": "attack-pattern--3f886f2a-874f-4333-b794-aa6075009b1c",
+            "type": "relationship"
+        },
+        {
+            "created": "2026-10-06T08:08:42.832Z",
+            "created_by_ref": "identity--2b63cbd5-cbaa-5b07-8383-f9e3731ca479",
+            "description": "203.96.229.227 indicates T1190",
+            "id": "relationship--7022cf5b-6b80-5512-b49c-ca8975b287b1",
+            "modified": "2026-10-06T08:08:42.832Z",
+            "object_marking_refs": [
+                "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+            ],
+            "relationship_type": "indicates",
+            "source_ref": "indicator--211c76fd-0a59-52f4-a5ef-69116d741984",
+            "spec_version": "2.1",
+            "target_ref": "attack-pattern--3f886f2a-874f-4333-b794-aa6075009b1c",
+            "type": "relationship"
+        },
+        {
+            "created": "2026-10-06T08:08:42.832Z",
+            "created_by_ref": "identity--2b63cbd5-cbaa-5b07-8383-f9e3731ca479",
+            "description": "103.147.73.36 indicates T1190",
+            "id": "relationship--94c39361-4e53-59d4-8969-6633fa0679f5",
+            "modified": "2026-10-06T08:08:42.832Z",
+            "object_marking_refs": [
+                "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+            ],
+            "relationship_type": "indicates",
+            "source_ref": "indicator--defc3684-1f8b-5129-ae1a-8beb297489bc",
+            "spec_version": "2.1",
+            "target_ref": "attack-pattern--3f886f2a-874f-4333-b794-aa6075009b1c",
+            "type": "relationship"
+        },
+        {
+            "created": "2026-10-06T08:08:42.832Z",
+            "created_by_ref": "identity--2b63cbd5-cbaa-5b07-8383-f9e3731ca479",
+            "description": "103.155.166.246 indicates T1190",
+            "id": "relationship--611fe4a7-a655-51b2-874d-9a0c747ab8d2",
+            "modified": "2026-10-06T08:08:42.832Z",
+            "object_marking_refs": [
+                "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+            ],
+            "relationship_type": "indicates",
+            "source_ref": "indicator--b2a7b7fd-bc09-5d3e-a178-619a5f4cc5d3",
+            "spec_version": "2.1",
+            "target_ref": "attack-pattern--3f886f2a-874f-4333-b794-aa6075009b1c",
+            "type": "relationship"
+        },
+        {
+            "created": "2026-10-06T08:08:42.832Z",
+            "created_by_ref": "identity--2b63cbd5-cbaa-5b07-8383-f9e3731ca479",
+            "description": "103.28.112.185 indicates T1190",
+            "id": "relationship--9386b86e-3ef0-5b53-9314-790c7866a3f1",
+            "modified": "2026-10-06T08:08:42.832Z",
+            "object_marking_refs": [
+                "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+            ],
+            "relationship_type": "indicates",
+            "source_ref": "indicator--5b039401-b7c2-5818-94cf-ba2bc1370575",
+            "spec_version": "2.1",
+            "target_ref": "attack-pattern--3f886f2a-874f-4333-b794-aa6075009b1c",
+            "type": "relationship"
+        },
+        {
+            "created": "2026-10-06T08:08:42.832Z",
+            "created_by_ref": "identity--2b63cbd5-cbaa-5b07-8383-f9e3731ca479",
+            "description": "114.79.2.185 indicates T1190",
+            "id": "relationship--869f7f37-1d26-50de-98be-ff05017c9ed6",
+            "modified": "2026-10-06T08:08:42.832Z",
+            "object_marking_refs": [
+                "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+            ],
+            "relationship_type": "indicates",
+            "source_ref": "indicator--ab9b36f3-3d47-5aab-a859-58a3689f540b",
+            "spec_version": "2.1",
+            "target_ref": "attack-pattern--3f886f2a-874f-4333-b794-aa6075009b1c",
+            "type": "relationship"
+        },
+        {
+            "created": "2026-10-06T08:08:42.832Z",
+            "created_by_ref": "identity--2b63cbd5-cbaa-5b07-8383-f9e3731ca479",
+            "description": "125.166.150.184 indicates T1190",
+            "id": "relationship--f3e69bb5-f871-5683-812d-0f03e6d030ae",
+            "modified": "2026-10-06T08:08:42.832Z",
+            "object_marking_refs": [
+                "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+            ],
+            "relationship_type": "indicates",
+            "source_ref": "indicator--5d901e1a-572c-508e-9a6a-74f4ff70d396",
+            "spec_version": "2.1",
+            "target_ref": "attack-pattern--3f886f2a-874f-4333-b794-aa6075009b1c",
+            "type": "relationship"
+        },
+        {
+            "created": "2026-10-06T08:08:42.832Z",
+            "created_by_ref": "identity--2b63cbd5-cbaa-5b07-8383-f9e3731ca479",
+            "description": "160.250.42.76 indicates T1190",
+            "id": "relationship--f833a9ca-2a7b-5ca7-959a-e378cdd8f98b",
+            "modified": "2026-10-06T08:08:42.832Z",
+            "object_marking_refs": [
+                "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+            ],
+            "relationship_type": "indicates",
+            "source_ref": "indicator--04bfd7d9-a604-5f8d-9901-5ddadda4d072",
+            "spec_version": "2.1",
+            "target_ref": "attack-pattern--3f886f2a-874f-4333-b794-aa6075009b1c",
+            "type": "relationship"
+        },
+        {
+            "created": "2026-10-06T08:08:42.832Z",
+            "created_by_ref": "identity--2b63cbd5-cbaa-5b07-8383-f9e3731ca479",
+            "description": "180.243.252.232 indicates T1190",
+            "id": "relationship--99a49750-904b-5ab6-aa87-f550c8636943",
+            "modified": "2026-10-06T08:08:42.832Z",
+            "object_marking_refs": [
+                "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+            ],
+            "relationship_type": "indicates",
+            "source_ref": "indicator--679b6db2-e6f8-50c8-ae5e-6e57c8d38496",
+            "spec_version": "2.1",
+            "target_ref": "attack-pattern--3f886f2a-874f-4333-b794-aa6075009b1c",
+            "type": "relationship"
+        },
+        {
+            "created": "2026-10-06T08:08:42.832Z",
+            "created_by_ref": "identity--2b63cbd5-cbaa-5b07-8383-f9e3731ca479",
+            "description": "202.164.218.61 indicates T1190",
+            "id": "relationship--b1f98d70-6b1a-5a22-835e-139418cf82a6",
+            "modified": "2026-10-06T08:08:42.832Z",
+            "object_marking_refs": [
+                "marking-definition--f88d31f6-486f-44da-b317-01333bde0b82"
+            ],
+            "relationship_type": "indicates",
+            "source_ref": "indicator--299b90d2-ee6c-5a01-b63f-77b546c66698",
+            "spec_version": "2.1",
+            "target_ref": "attack-pattern--3f886f2a-874f-4333-b794-aa6075009b1c",
+            "type": "relationship"
+        }
+    ],
+    "type": "bundle"
+}
