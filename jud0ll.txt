@@ -275,6 +275,8 @@ riotgames.com
 www.roblox.com
 roblox.com
 api.roblox.com
+clientsettings.api.roblox.com
+rbxcdn.com
 #####################
 123cds.com
 123coffee.com
