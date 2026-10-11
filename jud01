@@ -890,6 +890,8 @@
 0.0.0.0 www.roblox.com
 0.0.0.0 roblox.com
 0.0.0.0 api.roblox.com
+0.0.0.0 rbxcdn.com
+0.0.0.0 clientsettings.api.roblox.com
 0.0.0.0 123cds.com
 0.0.0.0 123coffee.com
 0.0.0.0 123coins.com
