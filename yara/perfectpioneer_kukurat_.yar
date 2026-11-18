@@ -1,4 +1,5 @@
 import "hash"
+import "pe"
 
 rule MAL_APT_PerfectPioneer_SHA256_20251125
 {
@@ -112,7 +113,10 @@ rule MAL_APT_PerfectPioneer_KUKURAT_Strings_20251125
         $ip_02 = "27.254.164.209" ascii
 
     condition:
-        uint16(0) == 0x5A4D and filesize < 20MB and
+        // uint16(0) == 0x5A4D and filesize < 20MB and
+        pe.is_pe and
+        filesize >= 2 and
+        filesize < 20MB and
         (
             ( 1 of ($pdb_*) )
             or ( 1 of ($pip_*) and 2 of ($mod_*) )
