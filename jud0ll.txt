@@ -1,3 +1,5 @@
+ip-api.com
+api.ipify.org
 1ab6-coinbase-listing-677f.pages.dev
 22c9-coinbase-listing-677f.pages.dev
 26b3-coinbase-listing-677f.pages.dev
