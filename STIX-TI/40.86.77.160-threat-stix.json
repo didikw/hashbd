@@ -1,0 +1,122 @@
+{
+  "type": "indicator",
+  "id": "indicator--f8e2d4a1-8b3c-4e9f-a5d6-123456789abc",
+  "spec_version": "2.1",
+  "created": "2026-11-28T03:14:07.143807Z",
+  "modified": "2026-11-28T03:14:07.143807Z",
+  "name": "Malicious IP 40.86.77.160 - Web Attack Campaign",
+  "description": "Active attacker IP detected conducting web-based attacks against TTIS-BlitarKab infrastructure. Associated with SQL injection, path traversal, web shell probing, and credential harvesting campaigns. MITRE ATT&CK mapping: Reconnaissance, Initial Access, Privilege Escalation, Discovery, Lateral Movement.",
+  "labels": ["active-attacker", "web-attack", "sql-injection", "webshell-probing", "credential-harvesting"],
+  "valid_from": "2026-11-27T15:23:24Z",
+  "valid_until": "2026-12-05T03:14:07Z",
+  "confidence": 95,
+  "pattern": "[ipv4-addr:value = '40.86.77.160']",
+  "pattern_type": "stix",
+  "objects": [
+    {
+      "type": "ipv4-addr",
+      "id": "ipv4-addr--40.86.77.160",
+      "created": "2026-11-28T03:14:07.143807Z",
+      "modified": "2026-11-28T03:14:07.143807Z",
+      "name": "40.86.77.160",
+      "description": "Malicious source IP conducting web attacks against TTIS-BlitarKab infrastructure",
+      "network_layer": "IPV4",
+      "value": "40.86.77.160"
+    },
+    {
+      "type": "malware",
+      "id": "malware--web-attack-campaign-40.86.77.160",
+      "created": "2026-11-28T03:14:07.143807Z",
+      "modified": "2026-11-28T03:14:07.143807Z",
+      "name": "WebAttackCampaign.40.86.77.160",
+      "description": "Malware campaign associated with IP 40.86.77.160 conducting SQL injection, web shell probing, and credential harvesting",
+      "is_family": true,
+      "labels": ["web-attack", "sql-injection", "webshell", "credential-harvesting"],
+      "aliases": [
+        {
+          "type": "alias",
+          "value": "WebAttack.40.86.77.160"
+        }
+      ],
+      "is_package": true,
+      "is_in_malware_catalog": true,
+      "severity": "high"
+    },
+    {
+      "type": "campaign",
+      "id": "campaign--web-attack-ttis-2026-nov",
+      "created": "2026-11-28T03:14:07.143807Z",
+      "modified": "2026-11-28T03:14:07.143807Z",
+      "name": "TTIS-BlitarKab Web Attack Campaign - November 2026",
+      "description": "Multi-stage web attack campaign against TTIS-BlitarKab infrastructure targeting 56 agents",
+      "is_family": true,
+      "sighted": [
+        {
+          "type": "sighting",
+          "first_seen": "2026-11-27T15:23:24Z",
+          "last_seen": "2026-11-27T17:02:10Z",
+          "count": 569
+        }
+      ],
+      "labels": ["web-attack", "sql-injection", "webshell-probing"],
+      "primary_motivation": "financial-gain",
+      "is_subscribed": true,
+      "objective": "data-exfiltration",
+      "resource": {
+        "type": "relationship",
+        "source_ref": "malware--web-attack-campaign-40.86.77.160",
+        "relationship_type": "malware-uses",
+        "target_ref": "ipv4-addr--40.86.77.160",
+        "description": "Malware campaign uses attacker IP for C2 and attack operations"
+      }
+    }
+  ],
+  "granulars": {
+    "type": "attack-pattern",
+    "id": "attack-pattern--mitre-t1595",
+    "created": "2026-11-28T03:14:07.143807Z",
+    "modified": "2026-11-28T03:14:07.143807Z",
+    "name": "Active Scanning",
+    "description": "Reconnaissance technique used by attacker to discover potential targets",
+    "kill_chain_phases": [
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Reconnaissance"
+      }
+    ],
+    "tactic": "reconnaissance",
+    "labels": ["active-scanning", "web-scanner"]
+  },
+  "granulars": {
+    "type": "attack-pattern",
+    "id": "attack-pattern--mitre-t1190",
+    "created": "2026-11-28T03:14:07.143807Z",
+    "modified": "2026-11-28T03:14:07.143807Z",
+    "name": "Exploit Public-Facing Application",
+    "description": "Initial access technique using SQL injection and web vulnerabilities",
+    "kill_chain_phases": [
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Initial Access"
+      }
+    ],
+    "tactic": "initial-access",
+    "labels": ["sql-injection", "web-exploit"]
+  },
+  "granulars": {
+    "type": "attack-pattern",
+    "id": "attack-pattern--mitre-t1505",
+    "created": "2026-11-28T03:14:07.143807Z",
+    "modified": "2026-11-28T03:14:07.143807Z",
+    "name": "Web Shell",
+    "description": "Persistence technique using web shell deployment",
+    "kill_chain_phases": [
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Persistence"
+      }
+    ],
+    "tactic": "persistence",
+    "labels": ["webshell", "backdoor"]
+  }
+}
